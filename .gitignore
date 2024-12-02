@@ -1,0 +1,16 @@
+# Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+
+# Virtual environments
+.venv
+
+# macOS specific
+.DS_Store
+
+# Pytest cache files
+.cache/
