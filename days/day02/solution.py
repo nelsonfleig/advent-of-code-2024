@@ -15,7 +15,7 @@ def is_safe(reports: list[int]) -> bool:
 
         # check if there is no change or
         # change exceeds threshold of >3
-        if curr == next or abs(diff) > 3:
+        if diff == 0 or abs(diff) > 3:
             is_safe = False
 
         # check if diff direction does not change

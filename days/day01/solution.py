@@ -14,7 +14,7 @@ def split_lists(data: str) -> tuple[list[int], list[int]]:
     return left, right
 
 
-def part1(data):
+def part1(data: str):
     distance = 0
     left, right = split_lists(data)
     for i in range(len(left)):
@@ -22,7 +22,7 @@ def part1(data):
     return distance
 
 
-def part2(data):
+def part2(data: str):
     similarity = 0
     left, right = split_lists(data)
     left_dict = dict.fromkeys(left, 0)
